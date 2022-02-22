@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello Guru, from inside the original application!!!!!!!!!!!!! Testing"
+    return "Hello Cloud guru, this is a test application!!!!!!!!!!!!! Testing"
 
 
 if __name__ == "__main__":
